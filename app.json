@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "crossPlatBonsai",
+
     "slug": "crossPlatBonsai",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,6 +29,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": ["cjs"]
     }
   }
 }
